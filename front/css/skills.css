@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Adamina&display=swap');
+
+body{
+    background-color: var(--lightbrown);
+    overflow: hidden;
+}
+.main-content{
+    display: flex;
+    flex-flow: column;
+    background-color: var(--darkgreen);
+    border-radius: 25px;
+    border: 5px solid var(--darkergreen);
+    margin: 40px 100px 40px 100px;
+    
+}
+.header_main-content{
+    flex-flow: row;
+    margin: 25px 35px;
+    text-decoration: none;
+}
+.header_main-content a{
+    padding-right: 15px;
+    text-decoration: none;
+}
+.color-palette {
+    display: flex;
+    position: absolute;
+    right: 10rem; 
+    top: 4.5rem;
+    gap: 30px; 
+    align-items: center;
+}
+
+.circle {
+    flex-flow: row;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    flex-shrink: 1;
+}
+.light {
+    background-color: var(--lightbrown); 
+}
+
+.dark {
+    background-color: var(--othergreen); 
+}
+
+.darker {
+    background-color: var(--mediumgreen) ; 
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid var(--darkergreen);
+    align-items: center;
+    
+}
+.title-container{
+    display: flex;
+    margin: 3rem 5rem 1rem 5rem;
+    width: 615px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: var(--othergreen);
+    border: 5px solid var(--darkergreen); 
+}
+.styled-button{
+    margin: 2rem 2rem 10rem 14rem;
+    font-family: "Aboreto", system-ui;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; 
+    letter-spacing: 0.5px;
+}
+.skills-container{
+    display: inline;
+    background-color: var(--othergreen);
+    width: 640px;
+    height: 230px;
+    border-radius: 15px;
+    background-color: var(--othergreen);
+    border: 5px solid var(--darkergreen); 
+    margin-bottom: 2.5%;
+}
+.skills-container img{
+    max-width: 20%;
+    max-height: 20%;
+    margin: 5%;
+}

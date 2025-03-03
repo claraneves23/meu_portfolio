@@ -1,14 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
-:root{
-    --semiwhite:#F5F5F5;
-    --lightgreen: #8EBC73;
-    --mediumgreen: #506736;
-    --darkgreen:#3E4718;
-    --darkergreen:#202306;
-    --lightbrown:#C4C287;
-    --mediumbrown:#694813;
-    --darkbrown:#523E09;
-}
 
 body{
     background-color: var(--lightbrown);
@@ -19,7 +9,8 @@ body{
     background-color: var(--lightgreen);
     border-radius: 25px;
     border: 5px solid var(--mediumgreen);
-    margin: 40px 80px 40px 50px;
+    margin: 40px 100px 40px 100px;
+    
 }
 .header_main-content{
     flex-flow: row;
@@ -28,14 +19,12 @@ body{
 }
 .header_main-content a{
     padding-right: 15px;
-}
-a{
     text-decoration: none;
 }
 .color-palette {
     display: flex;
     position: absolute;
-    right: 8rem; 
+    right: 10rem; 
     top: 5rem;
     gap: 30px; 
     align-items: center;
@@ -70,7 +59,7 @@ a{
     color:var(--semiwhite);
 }
 .logo_main-content h1{
-    margin: 100px 0 5px 20px;
+    margin: 65px 0 5px 20px;
 }
 .searchbar_main-content{
     display: flex;
@@ -82,42 +71,6 @@ a{
     color: var(--darkergreen);
     background-color: var(--semiwhite);
     border-radius: 25px;
-}
-.menu_main-content{
-    display: flex;
-    margin-top: 60px;
-    justify-content: space-between;
-    max-width: 60%;
-    padding-left: 20%;
-    align-items: center;
-}
-button{
-    width: 60px; 
-    height: 60px; 
-    border-radius: 50%; 
-    border: none; 
-    cursor: pointer; 
-    font-size: 30px;
-    margin-bottom: 8%;
-}
-
-.btn_about-me{
-    background-color: var(--mediumbrown); 
-}
-.btn_skills{
-    background-color: var(--darkgreen); 
-}
-.btn_projects{
-    background-color: var(--mediumgreen); 
-}
-.btn_contact-me{
-    background-color: var(--darkbrown); 
-}
-.menu_main-content {
-    display: flex;
-    justify-content: center;
-    gap: 80px; /* Espaço entre os itens */
-    margin-top: 60px;
 }
 
 .menu-item {
@@ -141,6 +94,24 @@ button {
     align-items: center;
 
 }
+.btn_about-me{
+    background-color: var(--mediumbrown); 
+}
+.btn_skills{
+    background-color: var(--darkgreen); 
+}
+.btn_projects{
+    background-color: var(--mediumgreen); 
+}
+.btn_contact-me{
+    background-color: var(--darkbrown); 
+}
+.menu_main-content {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Espaço entre os itens */
+    margin-top: 30px;
+}
 
 span {
     font-size: 15px;
@@ -149,23 +120,8 @@ span {
     margin-top: 10px; /* Espaço entre o botão e o texto */
     
 }
-/*.btn-labels{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 60%;
-    padding-left: 20%;
-    align-items: center;
-    margin-bottom:50px ;
 
 
-}
-p{
-    font-size: 15px;
-    font-family: "Mandali", sans-serif ;
-    color: var(--darkerbrown);
-    margin-top: 50px;
-}
-*/
+
 
 

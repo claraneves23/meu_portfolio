@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Adamina&display=swap');
+
+body{
+    background-color: var(--mediumbrown);
+    overflow: hidden;
+}
+.main-content{
+    
+    display: flex;
+    flex-flow: column;
+    background-color: var(--lightbrown);
+    border-radius: 25px;
+    border: 5px solid var(--darkergreen);
+    margin: 40px 100px 40px 100px;
+    
+}
+.header_main-content{
+    flex-flow: row;
+    margin: 25px 30px;
+    text-decoration: none;
+}
+.header_main-content a{
+    padding-right: 15px;
+    text-decoration: none;
+}
+.color-palette {
+    display: flex;
+    position: absolute;
+    right: 10rem; 
+    top: 4.5rem;
+    gap: 30px; 
+    align-items: center;
+}
+
+.circle {
+    flex-flow: row;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    flex-shrink: 1;
+}
+.light {
+    background-color: var(--othergreen); 
+}
+
+.dark {
+    background-color: var(--darkgreen); 
+}
+
+.darker {
+    background-color: var(--darkbrown) ; 
+}
+.main-container{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-top:5px solid var(--darkergreen);
+    
+}
+.text_about-me{
+    margin:3rem 0 3rem 12rem;
+    width:320px;
+    height:335px;
+    border-radius: 25px;
+    background-color: var(--darkergreen);
+    text-align: center;
+    color:var(--semiwhite);
+    font-style: normal;
+    
+}
+.text_about-me h1{
+    margin-top: 35px;
+    font-family: "Aboreto", system-ui;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    letter-spacing: 0.5px;
+}
+.text_about-me p{
+    margin-top: 30px;
+    font-family: "Adamina", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px; 
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text_about-me img{
+    position: absolute;
+    left: 50rem;
+    top: 12rem;
+    width: 315px;
+    height: 315px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    border:6px solid var(--darkergreen);
+
+}
