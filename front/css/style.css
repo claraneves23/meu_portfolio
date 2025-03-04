@@ -4,36 +4,40 @@ body{
     background-color: var(--lightbrown);
 }
 .main-content{
-    display: flex;
-    flex-flow: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     background-color: var(--lightgreen);
     border-radius: 25px;
-    border: 5px solid var(--mediumgreen);
-    margin: 40px 100px 40px 100px;
+    border: 1vh solid var(--mediumgreen);
+    width: 80%;
     
 }
 .header_main-content{
     flex-flow: row;
-    margin: 25px 30px;
+    margin: 2rem 4rem;
     text-decoration: none;
 }
 .header_main-content a{
-    padding-right: 15px;
+    padding-right: 2vw;
     text-decoration: none;
 }
 .color-palette {
     display: flex;
+    flex-direction: row;
     position: absolute;
-    right: 10rem; 
-    top: 5rem;
-    gap: 30px; 
+    transform: translate(-50%, -50%);
+    right: 1.5%;
+    top: 10%;
+    gap: 2.75vw; 
     align-items: center;
 }
 
 .circle {
     flex-flow: row;
-    width: 20px; 
-    height: 20px; 
+    width: 1.5vw; 
+    height: 3vh; 
     border-radius: 50%; 
     flex-shrink: 1;
 }
@@ -52,25 +56,25 @@ body{
     display: flex;
     justify-content: center;
     font-family: "Mandali", sans-serif ;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-style: normal;
-    border-top: 5px solid var(--mediumgreen);
-    letter-spacing: 5.5px;
+    border-top: 1vh solid var(--mediumgreen);
+    letter-spacing: 0.5rem;
     color:var(--semiwhite);
 }
 .logo_main-content h1{
-    margin: 65px 0 5px 20px;
+    margin: 6vh 0 1vh 2vw;
 }
 .searchbar_main-content{
     display: flex;
-    padding: 8px 8px 8px 8px;
+    padding: 1%;
     margin-left: 37.5%;
     justify-items: center;
-    height: 15px;
+    height: 10%;
     width: 25%;
     color: var(--darkergreen);
     background-color: var(--semiwhite);
-    border-radius: 25px;
+    border-radius: 10rem;
 }
 
 .menu-item {
@@ -83,12 +87,12 @@ body{
 }
 
 button {
-    width: 70px;
-    height: 70px;
+    width: 5vw;
+    height: 10vh;
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 2.55rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,10 +118,10 @@ button {
 }
 
 span {
-    font-size: 15px;
+    font-size: 1rem;
     font-family: "Mandali", sans-serif;
     color: var(--darkerbrown);
-    margin-top: 10px; /* Espaço entre o botão e o texto */
+    margin-top: 0.5rem; 
     
 }
 

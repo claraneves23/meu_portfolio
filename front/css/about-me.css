@@ -1,41 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Adamina&display=swap');
 
-body{
+body{ 
     background-color: var(--mediumbrown);
     overflow: hidden;
 }
 .main-content{
-    
-    display: flex;
-    flex-flow: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
     background-color: var(--lightbrown);
     border-radius: 25px;
-    border: 5px solid var(--darkergreen);
-    margin: 40px 100px 40px 100px;
+    border: 1vh solid var(--darkergreen);
+    width: 80%;
     
 }
 .header_main-content{
     flex-flow: row;
-    margin: 25px 30px;
+    margin: 2rem 4rem;
     text-decoration: none;
 }
 .header_main-content a{
-    padding-right: 15px;
+    padding-right: 2vw;
     text-decoration: none;
 }
 .color-palette {
     display: flex;
+    flex-direction: row;
     position: absolute;
-    right: 10rem; 
-    top: 4.5rem;
-    gap: 30px; 
+    transform: translate(-50%, -50%);
+    right: 0.02%;
+    top: 10%;
+    gap: 2.3vw; 
     align-items: center;
 }
 
 .circle {
     flex-flow: row;
-    width: 20px; 
-    height: 20px; 
+    width: 1.5vw; 
+    height: 3vh; 
     border-radius: 50%; 
     flex-shrink: 1;
 }
@@ -54,14 +57,17 @@ body{
     max-width: 100%;
     display: flex;
     flex-flow: row;
-    border-top:5px solid var(--darkergreen);
+    border-top:1vh solid var(--darkergreen);
     
 }
 .text_about-me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin:3rem 0 3rem 12rem;
-    width:320px;
-    height:335px;
-    border-radius: 25px;
+    width:25vw;
+    height:55vh;
+    border-radius: 1.5rem;
     background-color: var(--darkergreen);
     text-align: center;
     color:var(--semiwhite);
@@ -78,22 +84,20 @@ body{
     letter-spacing: 0.5px;
 }
 .text_about-me p{
-    margin-top: 30px;
     font-family: "Adamina", serif;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 19px; 
-    letter-spacing: 0.5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    line-height: 1.3rem; 
+    letter-spacing: 0.02rem;
+    margin: 1.1rem 0.8rem 0 0.8rem
 }
 .text_about-me img{
     position: absolute;
-    left: 50rem;
-    top: 12rem;
-    width: 315px;
-    height: 315px;
+    right: 10rem;
+    top: 10.35rem;
+    width: 25%;
+    height: 55%;
     flex-shrink: 0;
     aspect-ratio: 1/1;
     border:6px solid var(--darkergreen);
